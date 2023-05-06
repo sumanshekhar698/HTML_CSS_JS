@@ -1,8 +1,8 @@
-# HTML CSS JS Project
+# HTML CSS JS Repository
 
-This is a simple web project that shows how to use HTML, CSS and JS to create a website.
+This is a simple web project that shows how to use HTML, CSS and JSusing various projects
 
-![Screenshot](https://www.pngfind.com/pngs/m/597-5977496_html5-logo-html-css-js-react-hd-png.png)
+![Screenshot](https://raw.githubusercontent.com/sumanshekhar698/HTML_CSS_JS/main/header-logo.png)
 
 ## How to use
 
