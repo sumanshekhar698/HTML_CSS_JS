@@ -1,6 +1,6 @@
 # HTML CSS JS Repository
 
-This is a simple web project that shows how to use HTML, CSS and JSusing various projects
+This is a simple web project that shows how to use HTML, JS and CSS using various mini projects
 
 ![Screenshot](https://raw.githubusercontent.com/sumanshekhar698/HTML_CSS_JS/main/header-logo.png)
 
