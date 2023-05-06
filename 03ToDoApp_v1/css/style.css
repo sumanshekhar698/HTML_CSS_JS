@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Nunito+Sans:wght@200;400;600&family=Oswald:wght@400;600&family=Poppins:wght@400;600&display=swap");
+
+body {
+  height: 100vh;
+  background: rgba(166, 43, 43, 0.387);
+}
+
+.container {
+  width: 40%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 100px;
+  min-width: 300px;
+  background: whitesmoke;
+  /* border: yellowgreen 2px solid; */
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+}
+
+#newtask {
+  /* the default positioning system is relative */
+  position: relative;
+
+  /* padding is used to alter the dimesions of the element */
+  padding: 30px 20px;
+  /* border: red 2px solid; */
+}
+
+#newtask input {
+  width: 75%;
+  height: 45px;
+  padding: 12px;
+  color: rgb(140, 17, 87);
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  position: relative;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 2px solid rgb(140, 17, 87);
+}
+
+#newtask input:focus {
+    /* https://www.w3schools.com/css/css_outline.asp#:~:text=Note%3A%20Outline%20differs%20from%20borders,the%20width%20of%20the%20outline. */
+  outline: none;
+  border-color: #d1d3d4;
+}
+
+#newtask button {
+  position: relative;
+  float: right;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: rgb(50, 90, 165);
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  width: 18%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+}
