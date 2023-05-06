@@ -13,7 +13,7 @@ To use this project, you need to have a web browser and a code editor. Then foll
 - Edit the HTML, CSS and JS files in your code editor as you wish
 - Refresh your browser to see the changes
 
-## What it does
+## What it contains
 
 Every sub project contains the following files:
 
