@@ -10,7 +10,7 @@
 body {
   height: 100vh;
   background: rgb(6, 122, 230);
-    /* background: rgba(166, 43, 43, 0.387); */
+  /* background: rgba(166, 43, 43, 0.387); */
 }
 
 .container {
@@ -18,12 +18,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   min-height: 100px;
   min-width: 300px;
   background: whitesmoke;
   /* border: yellowgreen 2px solid; */
   border-radius: 10px;
-  transform: translate(-50%, -50%);
 }
 
 #newtask {
@@ -39,9 +39,10 @@ body {
   width: 75%;
   height: 45px;
   padding: 12px;
-  color: rgb(140, 17, 87);
+  color: rgb(124, 4, 72);
+  caret-color: rgb(233, 13, 225);
   font-family: "Nunito", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   position: relative;
   border-radius: 5px;
   font-size: 15px;
@@ -103,7 +104,7 @@ body {
 
 /* #taskname{ */
 .task span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Rock Salt", cursive;
   font-size: 15px;
   font-weight: 600;
 }
