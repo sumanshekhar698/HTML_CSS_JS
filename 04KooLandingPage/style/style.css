@@ -14,7 +14,7 @@
 }
 
 nav {
-  height: 80px;
+  height: 10vh;
   background: var(--primary-color);
   display: flex;
   justify-content: space-between;
@@ -49,7 +49,7 @@ nav {
 .nav-items a:hover {
   color: #fff;
   transition: ease-in-out 0.2s;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 /* nav a{
@@ -90,6 +90,7 @@ nav {
 .column-left button {
   padding: 1rem 3rem;
   font-size: 1rem;
+  font-weight: 600;
   border: none;
   color: var(--primary-color);
   background: #000000;
@@ -98,9 +99,10 @@ nav {
 }
 
 .column-left button:hover {
-  background: #fff;
+  background: #cbed0c;
   transition: ease-in-out 0.2s;
   color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 column-right {
