@@ -37,6 +37,8 @@ nav {
 
 .logo h1 {
   display: inline;
+  font-size: 40px;
+  color: rgb(95, 91, 91);
   /* font-weight: 600; */
 }
 
@@ -44,6 +46,7 @@ nav {
   text-decoration: none;
   color: var(--secondary-color);
   padding: 0 1.5rem;
+  font-weight: 600;
 }
 
 .nav-items a:hover {
@@ -118,7 +121,27 @@ column-right {
 }
 
 @media screen and (max-width: 768px) {
+  .logo h1 {
+    font-size: 30px;
+  }
+
   .hero-container {
     grid-template-columns: 1fr;
+  }
+
+  .nav-items a {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .column-left h1 {
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+  }
+
+  .column-left p {
+    font-size: 1.1rem;
+    line-height: 1.2;
   }
 }
