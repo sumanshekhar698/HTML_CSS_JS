@@ -1,0 +1,38 @@
+
+https://javascript.info/
+https://www.javascripttutorial.net/what-is-javascript/
+
+JS ----> Java Script (Programming language)
+
+Java Script , Java
+Java Script (Name)-----> patented to Oracle
+JS is also called language of the internet
+
+
+---------------------------------Usage of JS----------------------------------------------
+Frontend
+Dekstop Apps (Electron.js)
+ML
+Backend (Node.js)
+
+
+Every Browser has its own JS Engine
+
+Chrome ----> *v8
+FireFox -----> SpiderMonkey
+Apple Safari ----> JavaScriptCore
+
+xyz JS Engine has to follow ECMAScript  Guidelines
+
+A browser understands only
+🔹HTML
+🔹CSS
+🔹JS
+🔹Static Content
+
+Can I run JS code outside my browser? 
+--> YES, with help of External JS Runtime Environmet
+🔹Node JS
+🔹Deno
+🔹Bun
+
