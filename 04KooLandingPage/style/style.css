@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Nunito+Sans:wght@200;400;600&family=Oswald:wght@400;600&family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&display=swap");
+/* E3: The above import was incorrect so fixed that, use goog fonts to import it correctly */
 
-/* reseting the default styles of the browser */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* S1: Add box sizing to reset the page */
   font-family: Nunito Sans, sans-serif;
 }
 
@@ -15,22 +16,23 @@
 
 nav {
   height: 10vh;
-  background: var(--primary-color);
+  background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
+  /* E4: use space between intead of center to get the typical nave bar look */
   align-items: center;
   padding: 0px calc((100vw - 1300px) / 2);
 }
-
 .logo {
   color: var(--secondary-color);
-  font-size: 1.5 rem;
+  font-size: 15px;
   font-weight: bold;
-  padding: 0 2rem;
+  padding: 0 5px;
+  /* S2: Add some padding */
   font-style: italic;
 }
 
-.logo img {
+.logo > img {
   width: 50px;
   display: inline;
 }
@@ -39,8 +41,9 @@ nav {
   display: inline;
   font-size: 40px;
   color: rgb(95, 91, 91);
-  /* font-weight: 600; */
 }
+
+/* E5: below tags were missing */
 
 .nav-items a {
   text-decoration: none;
@@ -56,8 +59,8 @@ nav {
 }
 
 /* nav a{
-
-} */
+  
+  } */
 
 .hero {
   background: var(--primary-color);
@@ -94,7 +97,8 @@ nav {
   padding: 1rem 3rem;
   font-size: 1rem;
   font-weight: 600;
-  border: none;
+  border: 1px solid #000000;
+  outline: none;
   color: var(--primary-color);
   background: #000000;
   border-radius: 50px;

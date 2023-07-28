@@ -56,7 +56,7 @@ var num = "3";
 if (num === 3) console.log("true 3");
 else console.log("false 3");
 
-// falsy values
+// ================= falsy values ================
 // undefined
 // null
 // 0
