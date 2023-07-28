@@ -1,0 +1,25 @@
+:root{
+    --theme-color: #d3c8b7;
+}
+
+.img-thumbnail{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    /* box-shadow: 0 0 0 5px #007bff; */
+
+    box-shadow: 0 0 5px 2px rgb(230, 228, 219);
+
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#resume-template, #save-btn{
+    display: none;
+}
+
+.theme{
+    background-color: var(--theme-color);
+}
